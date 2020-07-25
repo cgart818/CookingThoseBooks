@@ -3,10 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CookingThoseBooks.ViewModels
 {
-    public class HomeModel : Microsoft.AspNetCore.Mvc.RazorPages.PageModel
+    public class HomeModel : PageModel
     {
         [ViewData]
         public string Title { get; set; }
